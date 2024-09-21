@@ -1,0 +1,16 @@
+.conteudo-login {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+mat-form-field {
+  width: 300px;
+}
+
+.btn {
+  width: 300px;
+  background: royalblue;
+}
