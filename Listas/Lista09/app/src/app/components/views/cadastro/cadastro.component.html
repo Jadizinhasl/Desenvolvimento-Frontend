@@ -1,0 +1,28 @@
+<div class="tela">
+  <div id="conteudo-cadastro">
+    <mat-form-field class="example-form-field">
+      <mat-label>E-mail</mat-label>
+      <input matInput type="email" [(ngModel)]="email" required>
+    </mat-form-field>
+
+    <mat-form-field class="example-form-field">
+      <mat-label>CPF</mat-label>
+      <input matInput type="string" [(ngModel)]="cpf" required>
+    </mat-form-field>
+
+    <mat-form-field class="example-form-field">
+      <mat-label>Senha</mat-label>
+      <input matInput type="password" [(ngModel)]="senha" required>
+    </mat-form-field>
+
+    <mat-form-field class="example-form-field">
+      <mat-label>Confirmação de Senha</mat-label>
+      <input matInput type="password" [(ngModel)]="confirmacaoSenha" required>
+    </mat-form-field>
+
+    <button class="btn" (click)="cadastrar()" mat-fab extended>
+      <mat-icon>person</mat-icon> Cadastrar
+    </button>
+  </div>
+
+</div>

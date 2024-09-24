@@ -1,0 +1,42 @@
+.tela {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#6895fa, #9fd7ff);
+  font-family: Arial, sans-serif;
+}
+
+#conteudo-login {
+  background-color: rgb(255, 254, 254);
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.452);
+}
+
+mat-form-field {
+  width: 300px;
+}
+
+.btn {
+  width: 75%;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+  font-size: 16px;
+  background: #9fd7ff;
+  border-radius: 5px;
+  transition: 0.2s;
+  border: none;
+  box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.452);
+}
+
+.btn:hover {
+  background-color: #7fc5f8;
+}

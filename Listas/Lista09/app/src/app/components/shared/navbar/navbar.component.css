@@ -1,0 +1,19 @@
+mat-toolbar {
+  background-color: #395898;
+  display: flex;
+  justify-content: center;
+}
+
+.links {
+  font-family: Arial, sans-serif;
+  text-decoration: none;
+  font-size: 15PX;
+  margin: 10px;
+  color: rgb(255, 255, 255);
+  transition: 0.2s ease-in-out;
+}
+
+.links:hover {
+  font-weight: bold;
+  font-size: 20px;
+}
