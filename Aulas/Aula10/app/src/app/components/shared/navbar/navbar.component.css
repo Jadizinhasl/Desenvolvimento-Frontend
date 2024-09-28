@@ -1,0 +1,16 @@
+.menu {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.menu a {
+  margin: 10px;
+  color: blueviolet;
+  transition: 0.3s;
+  font-size: 15px;
+}
+
+.menu a:hover {
+  font-size: 18px;
+}
