@@ -7,14 +7,16 @@
 }
 
 .produto {
-  border: 1px solid black;
+  border: 1px solid rgb(252, 252, 252);
   width: 290px;
+  background-color: white;
   height: 310px;
   max-width: 290px;
   max-height: 310px;
   text-align: center;
   margin: 10px;
   padding: 10px;
+  border-radius: 10px;
 }
 
 .produto p {
@@ -23,6 +25,7 @@
 }
 
 .produto img {
+  border: 3px solid #d8ddf6;
   width: 250px;
   height: 180px;
   max-width: 250px;
@@ -38,17 +41,22 @@
   width: 90px;
   height: 27px;
   border: none;
-  border-radius: 15px;
+  border-radius: 7px;
   cursor: pointer;
 }
 
 .detalhes {
-  background: green;
+  background: rgb(171, 203, 233);
   color: aliceblue;
 }
 
 .comprar {
-  background: aqua;
+  background: rgb(11, 209, 209);
+  color: aliceblue;
+}
+
+.deletar {
+  background: #a30517;
   color: aliceblue;
 }
 
